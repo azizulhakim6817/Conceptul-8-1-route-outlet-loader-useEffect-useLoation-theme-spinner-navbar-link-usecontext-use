@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default, night, dark cupcake garden synthwave,
+    cyberpunk --prefersdark, forest;
+}
