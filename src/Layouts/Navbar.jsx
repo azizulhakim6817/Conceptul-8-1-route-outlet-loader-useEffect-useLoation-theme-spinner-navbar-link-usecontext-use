@@ -128,16 +128,7 @@ const Navbar = () => {
               Dashboar
             </NavLink>
           </li>
-          <li>
-            <NavLink
-              className={({ isActive }) => {
-                isActive ? "bg-red-500" : "bg-amber-300";
-              }}
-              to="home"
-            >
-              Click
-            </NavLink>
-          </li>
+         
         </ul>
       </div>
 
